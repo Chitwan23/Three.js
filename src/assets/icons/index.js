@@ -26,6 +26,11 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import Java from './Java.svg'
+import Aws from './Aws.svg'
+import Docker from './Docker.svg'
+import Jenkins from './Jenkins.svg'
+import Bootstrap from './Bootstrap.svg'
 
 export {
     css,
@@ -55,5 +60,10 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    Java,
+    Aws,
+    Docker,
+    Jenkins,
+    Bootstrap
 }
