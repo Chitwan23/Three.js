@@ -18,7 +18,7 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
         <p className='font-medium sm:text-xl text-center'>
-          Worked with many companies <br /> and picked up many skills along the way
+        Over the past three years of academics, <br/>I have gained extensive knowledge and developed a diverse set of skills.
         </p>
 
         <Link to='/about' className='neo-brutalism-white neo-btn'>
@@ -33,7 +33,7 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
         <p className='font-medium text-center sm:text-xl'>
-          Led multiple projects to success over the years. <br /> Curious about the impact?
+        Led multiple impactful projects over the years,<br/> consistently driven by curiosity and passion for my field of interest.
         </p>
 
         <Link to='/projects' className='neo-brutalism-white neo-btn'>
