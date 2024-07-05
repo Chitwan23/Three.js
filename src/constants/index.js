@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { meta, shopify, starbucks, tesla, PwC, CSI } from "../assets/images";
 import {
     car,
     contact,
@@ -21,8 +21,11 @@ import {
     Aws,
     Docker,
     Jenkins,
-    Bootstrap
-    
+    Bootstrap,
+    Maze,
+
+
+
 
 } from "../assets/icons";
 
@@ -42,7 +45,7 @@ export const skills = [
         name: "JavaScript",
         type: "Frontend",
     },
-    
+
     {
         imageUrl: nodejs,
         name: "Node.js",
@@ -53,7 +56,7 @@ export const skills = [
         name: "React",
         type: "Frontend",
     },
-   
+
     {
         imageUrl: express,
         name: "Express",
@@ -69,7 +72,7 @@ export const skills = [
         name: "GitHub",
         type: "Version Control",
     },
-    
+
     {
         imageUrl: mongodb,
         name: "MongoDB",
@@ -82,17 +85,17 @@ export const skills = [
 
     },
     {
-        imageUrl:Aws ,
+        imageUrl: Aws,
         name: "CSS",
         type: "Frontend",
     },
     {
-        imageUrl:Jenkins ,
+        imageUrl: Jenkins,
         name: "Jenkins",
         type: "Tool",
     },
     {
-        imageUrl:Bootstrap ,
+        imageUrl: Bootstrap,
         name: "Bootstrap",
         type: "Frontend",
     },
@@ -111,7 +114,7 @@ export const skills = [
     //     name: "Next.js",
     //     type: "Frontend",
     // },
-    
+
     // {
     //     imageUrl: redux,
     //     name: "Redux",
@@ -136,29 +139,37 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Launchpad Trainee",
+        company_name: "PwC",
+        icon: PwC,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        date: "Feb 2024 - June 2024",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            " Successfully completed a 4-month summer internship program.",
+            "Acquired multiple micro-certifications including IT Fundamentals, Python, RDBMS (SQL), and Data Engineering.",
+            "Developed and refined programming and practical skills in Python and SQL.",
+            " Applied various concepts of IT practices, RDBMS, Data Science, and AI/ML.",
+            // "Developing and maintaining web applications using React.js and other related technologies.",
+            // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            // "Implementing responsive design and ensuring cross-browser compatibility.",
+            // "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Technical Committee Member",
+        company_name: "CSI",
+        icon: CSI,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        date: "July 2022 - April 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Designed websites for committee events including REGISTRATION, YUGMAK, and HACKATHON using ReactJS, HTML, CSS, and Bootstrap.",
+            "Served as Technical Event Coordinator for Corporate Social Responsibility in 2022.",
+            "Member of the organizing committee for UPES CSI Hackathon 2022, contributing to stage management.",
+            "Volunteered for multiple events as part of the organizing team for YUGMAK 2022."
+            // "Developing and maintaining web applications using React.js and other related technologies.",
+            // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            // "Implementing responsive design and ensuring cross-browser compatibility.",
+            // "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
     {
@@ -174,19 +185,19 @@ export const experiences = [
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+    // {
+    //     title: "Full stack Developer",
+    //     company_name: "Meta",
+    //     icon: meta,
+    //     iconBg: "#a2d2ff",
+    //     date: "Jan 2023 - Present",
+    //     points: [
+    //         "Developing and maintaining web applications using React.js and other related technologies.",
+    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //         "Implementing responsive design and ensuring cross-browser compatibility.",
+    //         "Participating in code reviews and providing constructive feedback to other developers.",
+    //     ],
+    // },
 ];
 
 export const socialLinks = [
@@ -198,18 +209,18 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/Chitwan23',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/chitwan-singh23/',
     }
 ];
 
 export const projects = [
     {
-        iconUrl: pricewise,
+        iconUrl: Maze,
         theme: 'btn-back-red',
         name: 'Maze-Master',
         description: 'Maze Master is a Java application that generates and solves random mazes. The application allows users to create mazes using different algorithms and then solve them using various pathfinding techniques.',
@@ -241,13 +252,13 @@ export const projects = [
         theme: 'btn-back-black',
         name: 'Semantic Analysis',
         description: 'developed an NLP-powered semantic analysis pipeline to extract insights from social media data, integrating these tools with Jira, GitHub, and Jenkins to streamline development and automate workflows. Additionally, I enabled offline access to desktop applications, significantly enhancing user productivity and convenience.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        link: 'https://github.com/Chitwan23/Applied_DevOps',
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
+        name: 'Three.js Project',
         description: 'Developed an interactive 3D portfolio using React, Three.js, and TailwindCSS. Implemented animations and interactivity with React Three Fiber and Drei. Deployed the project using Vite on GitHub Pages.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        link: 'https://github.com/Chitwan23/Three.js',
     }
 ];

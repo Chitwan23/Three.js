@@ -31,6 +31,8 @@ import Aws from './Aws.svg'
 import Docker from './Docker.svg'
 import Jenkins from './Jenkins.svg'
 import Bootstrap from './Bootstrap.svg'
+import Maze from './maze.svg'
+
 
 export {
     css,
@@ -65,5 +67,7 @@ export {
     Aws,
     Docker,
     Jenkins,
-    Bootstrap
+    Bootstrap,
+    Maze,
+    
 }
