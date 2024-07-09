@@ -174,15 +174,18 @@ export const experiences = [
     },
     {
         title: "Accomplishment and Recognition",
-        company_name: "Shopify",
+        company_name: "UPES",
         icon: shopify,
         iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        date: "Oct 2021 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "   Runner up in Xebia’s got Talent in 2024",
+            "   Runner up in Xe-Fest event (Code-Chronicles) in 2024.",
+            "   Participated in Uhackathon in 2023.",
+            "   Actively participated in Xebia-Fest in March 2022.",
+            "   Currently holding Class Representative position.",
+            "   Appointed as group lead in social internship.",
+            "   Worked with MyCaption as Campus ambassador and Intern in 2022."
         ],
     },
     // {
