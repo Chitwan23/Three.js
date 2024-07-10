@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla, PwC, CSI } from "../assets/images";
+import { meta, shopify, starbucks, tesla, PwC, CSI , upes } from "../assets/images";
 import {
     car,
     contact,
@@ -175,7 +175,7 @@ export const experiences = [
     {
         title: "Accomplishment and Recognition",
         company_name: "UPES",
-        icon: shopify,
+        icon: upes,
         iconBg: "#b7e4c7",
         date: "Oct 2021 - Present",
         points: [
