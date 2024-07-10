@@ -1,6 +1,5 @@
-import { meta, shopify, starbucks, tesla, PwC, CSI , upes } from "../assets/images";
+import { PwC, CSI , upes } from "../assets/images";
 import {
-    car,
     contact,
     css,
     estate,
@@ -12,7 +11,6 @@ import {
     linkedin,
     mongodb,
     nodejs,
-    pricewise,
     react,
     summiz,
     tailwindcss,
