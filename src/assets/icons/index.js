@@ -6,7 +6,7 @@ import html from './html.svg'
 import javascript from './javascript.svg'
 import mongodb from './mongodb.svg'
 import motion from './motion.svg'
-import mui from './mui.svg'
+// import mui from './mui.svg'
 import nextjs from './nextjs.svg'
 import nodejs from './nodejs.svg'
 import react from './react.svg'
@@ -43,7 +43,7 @@ export {
     javascript,
     mongodb,
     motion,
-    mui,
+    // mui,
     nextjs,
     nodejs,
     react,
