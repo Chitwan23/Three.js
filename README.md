@@ -1,7 +1,6 @@
 # Three.js
 
 
-asdfghjklasdfghjklasdfghjkl
 
 *Introduction*
 
